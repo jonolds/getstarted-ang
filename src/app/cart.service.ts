@@ -1,22 +1,22 @@
-import { Injectable } from '@angular/core';
+import {Injectable} from '@angular/core';
 
 @Injectable({
-  providedIn: 'root'
+    providedIn: 'root'
 })
 export class CartService {
-  items = [];
+    items = [];
 
-  addToCart(product) {
-    this.items.push(product);
-    window.alert('ADD TO CART SERVICE');
-  }
+    addToCart(product) {
+        this.items.push(product);
+        window.alert('ADD TO CART SERVICE');
+    }
 
-  getItems() {
-    return this.items;
-  }
+    getItems() {
+        return this.items;
+    }
 
-  clearCart() {
-    this.items = [];
-    return this.items;
-  }
+    clearCart() {
+        this.items = [];
+        return this.items;
+    }
 }
