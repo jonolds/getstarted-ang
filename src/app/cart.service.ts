@@ -8,6 +8,7 @@ export class CartService {
 
   addToCart(product) {
     this.items.push(product);
+    window.alert('ADD TO CART SERVICE');
   }
 
   getItems() {
