@@ -24,7 +24,6 @@
     "rxjs": "^6.5.2",
     "tns-core-modules": "5.4.3",
     "tslib": "^1.9.0",
-    "typescript-angular-components": "^4.4.5",
     "zone.js": "~0.9.1"
   },
   "devDependencies": {
@@ -45,8 +44,8 @@
     "karma-jasmine-html-reporter": "^1.4.0",
     "protractor": "~5.4.0",
     "ts-node": "~7.0.0",
-    "tslint": "~5.15.0",
-    "typescript": "~3.4.3",
+    "tslint": "^5.18.0",
+    "typescript": "^3.4.5",
     "webpack": "^4.35.0"
   }
 }
